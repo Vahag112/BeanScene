@@ -126,12 +126,13 @@ header{
                 
 
                 li{
+                    display: flex;
                     padding-bottom: 20px;
                     width: 90%;
                     border-bottom: 1px solid #5d4804;
                     display: flex;
                     align-items: center;
-                    justify-content: center !important;    
+                    justify-content: center;    
                 }
 
                 li:nth-of-type(4){
