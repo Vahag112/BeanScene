@@ -1,0 +1,68 @@
+.coffee_back{
+    background-image:url('../../images/coffee_image.png') ;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.coffee{
+    padding: 80px 0px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+
+
+        h2{
+            font-size: clamp(130px , 30vw, 220px);
+            font-family: clicker;
+            color: white;
+            font-weight: normal;
+
+        }
+
+        p{
+            font-size: clamp(17px , 4vw , 22px);
+            font-family: playfair;
+            color: white;
+
+        }
+
+        span{
+            font-size: clamp(15px , 4vw, 20px);
+            font-family: playfair;
+            color: white;
+            max-width: 527px;
+            width: 100%;
+        }
+
+        button{
+            margin-top: 20px;
+            padding: 14px 27px;
+            font-family: playfair;
+            font-weight: bold;
+            color: #1E1E1E;
+            background:#F9C06A;
+            border-radius: 24px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: .3s ease;
+            &:hover{
+                background: #d4af37;
+                color: white;
+            }
+        }
+    }
+
+}
+
+
+@media(max-width: 400px){
+    .coffee > .container{
+        button{
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+.morning{
+    padding: 50px 0px;
+    min-height: 580px;
+    background-image: url('../../images/morningPage.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 180px;
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+
+            h2{
+                font-family: playfair;
+                color: white;
+                font-weight: bold;
+                font-size: clamp(35px, 6vw, 54px);
+
+            }
+
+            p{
+                font-family: playfair;
+                font-size: clamp(17px ,3vw, 20px);
+                color: white;
+                max-width: 375px;
+                width: 100%;
+                line-height: 34px;
+
+            }
+
+            button{
+                margin-top: 12px;
+                padding: 17px 20px;
+                border-radius: 24px;
+                background: #F9C06A;
+                color: #1E1E1E;
+                font-size: 16px;
+                font-weight: bold;
+                font-family: playfair;
+                cursor: pointer;
+
+
+            }
+
+        }
+
+        img{
+            max-width: 300px;
+            width: 100%;
+        }
+
+       
+    }
+}
+
+
+@media(max-width:1125px){
+    .morning > .container {
+        gap: 150px;
+    }
+}
+
+
+@media(max-width:1105px){
+    .morning > .container {
+        gap: 120px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width:1047px){
+    .morning > .container{
+        padding-top: 70px;
+    }
+}
+
+@media(max-width: 900px){
+    .morning > .container{
+        gap: 100px;
+    }
+}
+
+
+@media(max-width:660px){
+    .morning > .container{
+        gap: 80px;
+
+        .content{
+            p{
+                br{
+                    display: none;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@media(max-width:660px){
+    .morning > .container{
+        gap: 80px;
+
+        .content{
+            p{
+                br{
+                    display: none;
+                }
+            }
+        }
+
+
+    }
+}
+
+@media(max-width: 400px){
+    .morning > .container{
+        gap: 60px;
+        .content {
+            h2{
+                br{
+                    display: none;
+                }
+            }
+        }
+    }
+}
