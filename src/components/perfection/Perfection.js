@@ -1,5 +1,5 @@
 import React from 'react'
-import './Perfection.css'
+import './Perfection.scss'
 import i1 from '../../images/Jonny.png'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 

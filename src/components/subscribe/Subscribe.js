@@ -1,5 +1,5 @@
 import React from 'react'
-import './Subscribe.css'
+import './Subscribe.scss'
 export default function Subscribe() {
   return (
     <div className='subscribe'>

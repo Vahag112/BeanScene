@@ -1,5 +1,5 @@
 import React from 'react'
-import './Enjoy.css'
+import './Enjoy.scss'
 import i1 from '../../images/coffee1.png'
 import i2 from '../../images/coffee2.png'
 import i3 from '../../images/coffee3.png'

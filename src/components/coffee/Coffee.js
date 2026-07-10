@@ -1,5 +1,5 @@
 import React from 'react'
-import './Coffee.css'
+import './Coffee.scss'
 import Header from '../header/Header'
 
 export default function Coffee() {

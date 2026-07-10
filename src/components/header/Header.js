@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Header.css'
+import './Header.scss'
 import { HiBars3 } from 'react-icons/hi2'
 export default function Header() {
     const [open,setOpen] = useState(false)

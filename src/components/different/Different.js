@@ -1,5 +1,5 @@
 import React from 'react'
-import './Different.css'
+import './Different.scss'
 import i1 from '../../images/d1.png'
 import i2 from '../../images/d2.png'
 import i3 from '../../images/d3.png'

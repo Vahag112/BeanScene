@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+import './Footer.scss'
 import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 

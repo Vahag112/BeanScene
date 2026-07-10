@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Coffee from './components/coffee/Coffee';
 import Different from './components/different/Different';
 import Discover from './components/discover/Discover';

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Discover.css'
+import './Discover.scss'
 import i1 from '../../images/discoverPage.png'
 
 export default function Discover() {

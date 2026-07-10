@@ -1,5 +1,5 @@
 import React from 'react'
-import './Morning.css'
+import './Morning.scss'
 import i1 from '../../images/cup.png'
 
 export default function Morning() {
